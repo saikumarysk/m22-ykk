@@ -2,35 +2,26 @@
 title: Week 6
 topic: Exploiting self-similarity (Recursion)
 ---
-Jul 25
-: _Finish reading and review Chapter 06 in zyBooks._
-: _Complete the PAs and CAs._
+Mon, Sep 5
+: **Holiday (no classes)**{: .label .label-red }September 5 (Labor Day)
+
+: _Finish reading and review Chapter 06 in zyBooks. Complete the PAs and CAs._
 : _Test your understanding with the Reading Quiz._
-   : **10PM** ⏰  Due: **PA06**{: .label .label-orange }
 
-Jul 26
+Tue, Sep 6
 : 09:30am **Class**{: .label .label-purple }
-   : **10PM** ⏰  Due: 
 
-Jul 27
+Wed, Sep 7
 : 09:30am **Class**{: .label .label-purple }
-: 09:00am **LA05**{: .label .label-green }_are expected to be done_
-   : **10PM** ⏰  Due: **LA05**{: .label .label-green }
+    : ⏰ Due: **Quiz**{: .label .label-darkcyan }
 
-Jul 28
-: 09:30am **Class**{: .label .label-purple }
-   : **10PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
 
-Jul 29
-: <p class="text-grey-dk-000 mb-0"><em>Instruction Ends (Session A)</em></p>
+Thu, Sep 8
+: 09:30am **Class**{: .label .label-purple } + **Lab sessions**{: .label .label-purple }
 
-: _Finish the Weekly reflection._
+Fri, Sep 9
+: <p class="text-grey-dk-000 mb-0"><em>Instruction Ends (Session B)</em></p>
 
-Jul 30
-: _Async activities_ ☝️ 
-
-Jul 31
-
-   : **10PM** ⏰  Due: **Reflection**{: .label .label-yellow }
+: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA06**{: .label .label-orange }**CA06**{: .label .label-blue }**LA05**{: .label .label-green }
 
 

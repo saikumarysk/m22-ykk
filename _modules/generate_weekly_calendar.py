@@ -86,27 +86,23 @@ topic = {
 
 ### These notes are replaced with the specifics for each respective week below
 class_time = "09:30am"
-due_time = "10PM"
+due_time = "11PM"
 due_dates = {
-    "Mon" : f": _Finish reading and review Chapter X in zyBooks._\n" +
-            f": _Complete the PAs and CAs._\n" +
-            f": _Test your understanding with the Reading Quiz._\n" +
-            f"   : **{due_time}** ⏰  Due: **PA**{{: .label .label-orange }}",
-    "Tue" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
-            f"   : **{due_time}** ⏰  Due: **CA**{{: .label .label-blue }}",
-    "Wed" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
-            f": 09:00am **LA**{{: .label .label-green }}_are expected to be done_\n" +
-            f"   : **{due_time}** ⏰  Due: **LA**{{: .label .label-green }}",
-    "Thu" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
-            f"   : **{due_time}** ⏰  Due: **LA Checkpoint**{{: .label .label-green }}",
-    "Fri" : f": _Begin reading next week’s chapter._\n" +
-            f": _Work through its PAs and CAs._\n" +
+    "Mon" : f": _Finish reading and review Chapter X in zyBooks. Complete the PAs and CAs._" +
+            f"\n: _Test your understanding with the Reading Quiz._" ,
+#f"\n   : **{due_time}** ⏰  Due: **PA**{{: .label .label-orange }}",
+    "Tue" : f": {class_time} **Class**{{: .label .label-purple }}" ,
+#f"\n   : **{due_time}** ⏰  Due: **CA**{{: .label .label-blue }}",
+    "Wed" : f": {class_time} **Class**{{: .label .label-purple }}"+
+            f"\n    : ⏰ Due: **Quiz**{{: .label .label-darkcyan }}\n" ,
+#f"\n: 09:00am **LA**{{: .label .label-green }}_are expected to be done_\n" +
+#f"\n   : **{due_time}** ⏰  Due: **LA**{{: .label .label-green }}",
+    "Thu" : f": {class_time} **Class**{{: .label .label-purple }} + **Lab sessions**{{: .label .label-purple }}" ,
+#f"\n   : **{due_time}** ⏰  Due: **LA Checkpoint**{{: .label .label-green }}",
+    "Fri" : f": **{due_time}** ⏰  Due: **Reflection**{{: .label .label-yellow }}**PA**{{: .label .label-orange }}**CA**{{: .label .label-blue }}**LA**{{: .label .label-green }}\n",
+    "Sat" : f": _Begin reading next week’s chapter. Work through its PAs and CAs._\n" +
             f": _Finish the Weekly reflection._",
-    "Sat" : f": _Async activities_ ☝️ ", 
-    "Sun" : f": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._\n" +
-            f"   : **{due_time}** ⏰  Due: **Reflection**{{: .label .label-yellow }}\n"
-            
-
+    "Sun" : f": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._"
 }
 
 ### https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/academic-calendars 
@@ -127,13 +123,17 @@ admin_dates = {
     (9, 9) : "Instruction Ends (Session B)",
 }
 
-start_month = 6
-start_monday = 20 # June 20
+start_month = 8
+start_monday = 1 # June 20
 start_week = 1
-exclude_weekends = False #True
-include_days_of_week = False # whether to include "Mon", "Tue" with the day
-end_month = 7 # 
-end_day = 29 # the last day of classes
+#exclude_weekends = False 
+exclude_weekends = True
+#include_days_of_week = False # whether to include "Mon", "Tue" with the day
+include_days_of_week = True # whether to include "Mon", "Tue" with the day
+end_month = 9 # 
+end_day = 9 # the last day of classes
+
+
 
 num_days = 7
 num_weeks = 7 # stop before this week
@@ -179,13 +179,13 @@ while week < num_weeks: # loop through the weeks
                     due_str = due_str.replace("Chapter Y", f"Chapter {int(this_week)+1}").replace("Start on PA", f"Start on **PA{int(this_week)+1:0>2}**")
                 else: # last week of the term
 #due_str = due_str.replace("\n : _Finish CA{: .label .label-blue } + Start on PA{: .label .label-orange }_", "")
-                    due_str = due_str.replace(": _Begin reading next week’s chapter._\n", "")
-                    due_str = due_str.replace(": _Work through its PAs and CAs._\n", "")
+                    due_str = due_str.replace(": _Begin reading next week’s chapter. Work through its PAs and CAs._\n", "")
+                    due_str = due_str.replace(": __\n", "")
                     due_str = due_str.replace("\n: _Finish the Weekly reflection._", "") # dont inlcude it, since there's one for the final project
-                    due_str = due_str.replace("**CA**{: .label .label-blue }","" ) # there are none in Ch10 (Files)
+#                    due_str = due_str.replace("**CA**{: .label .label-blue }","" ) # there are none in Ch10 (Files)
                     due_str = due_str.replace(": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._", "")
                 due_str = due_str.replace("**PA**", f"**PA{this_week}**").replace("**CA**", f"**CA{this_week}**").replace("**LA**", f"**LA{last_week}**").replace("Chapter X", "Chapter "+this_week)
-                due_str = due_str.replace("Finish CA", f"Finish **CA{this_week}**")
+#due_str = due_str.replace("Finish CA", f"Finish **CA{this_week}**")
 
                 md_file.write(due_str + "\n\n")
             else:

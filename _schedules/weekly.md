@@ -66,38 +66,10 @@ schedule:
         location: MENTOR
   - name: Wednesday
     events:
-      - name: Section
-        start: 09:00 AM
-        end: 09:50 AM
-        location: MENTOR
-      - name: Section
-        start: 10:00 AM
-        end: 10:50 AM
-        location: MENTOR
-      - name: Section
-        start: 11:00 AM
-        end: 11:50 AM
-        location: MENTOR
-      - name: Section
-        start: 12:00 PM
-        end: 12:50 PM
-        location: MENTOR
-      - name: Section
-        start: 1:00 PM
-        end: 1:50 PM
-        location: MENTOR
-      - name: Section
-        start: 2:00 PM
-        end: 2:50 PM
-        location: MENTOR
-      - name: Section
-        start: 3:00 PM
-        end: 3:50 PM
-        location: MENTOR
-      - name: Section
-        start: 4:00 PM
-        end: 4:50 PM
-        location: MENTOR
+      - name: Lecture
+        start: 9:30 AM
+        end: 10:45 AM
+        location: Zoom
       - name: Office Hours
         start: 5:00 PM
         end: 7:00 PM
@@ -108,18 +80,26 @@ schedule:
         start: 9:30 AM
         end: 10:45 AM
         location: Zoom
-      - name: Office Hours
-        start: 10:45 AM
-        end: 12:00 PM
-        location: INSTRUCTOR
-      - name: Office Hours
+      - name: Section
+        start: 11:00 AM
+        end: 12:20 PM
+        location: Zoom
+      - name: Section
+        start: 12:30 PM
+        end: 1:50 PM
+        location: Zoom
+      - name: Section
         start: 2:00 PM
-        end: 3:00 PM
-        location: MENTOR
-      - name: Office Hours
+        end: 3:20 PM
+        location: Zoom
+      - name: Section
+        start: 3:30 PM
+        end: 4:50 PM
+        location: Zoom
+      - name: Section
         start: 5:00 PM
-        end: 6:00 PM
-        location: MENTOR     
+        end: 6:20 PM
+        location: Zoom
   - name: Friday
     events:
       - name: Office Hours

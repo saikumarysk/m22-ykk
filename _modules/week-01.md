@@ -2,28 +2,20 @@
 title: Week 1
 topic: Representing data (Variables, Expressions, and Types)
 ---
-Jun 20
-: **Holiday (no classes)**{: .label .label-red }June 20 (Juneteenth)
+Mon, Aug 1
+: <p class="text-grey-dk-000 mb-0"><em>Instruction Begins (Session B)</em></p>
 
 : [](#)
 
-Jun 21
-: <p class="text-grey-dk-000 mb-0"><em>Instruction Begins (Session A)</em></p>
-
+Tue, Aug 2
 : [](#)
 
-Jun 22
+Wed, Aug 3
 : [](#)
 
-Jun 23
+Thu, Aug 4
 : [](#)
 
-Jun 24
-: [](#)
-
-Jun 25
-: [](#)
-
-Jun 26
+Fri, Aug 5
 : [](#)
 
