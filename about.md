@@ -131,7 +131,7 @@ Due each week (always, at <span style="color:green">**the same time**</span>):
 
 > **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
 
-> **CA**{: .label .label-blue }(Challenge Activitiwe recommend you to complete them**before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them
+> **CA**{: .label .label-blue }(Challenge Activitiwe recommend you to complete them **before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them
 
 > **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Thursday {{ site.due_time }}</span> (complete them before 9am to focus on the labs for the current week)
 
@@ -154,7 +154,7 @@ linked [below](#request-for-accommodations).
 You need to submit this form separately for all weeks in which you will need the accommodation.
 
 ### Deadline extension for zyBook activities
-During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). 
+During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extensions only for the zyBooks activities, not the quizzes, reflections, etc.). 
 Do not contact us via the forum or the email, just [submit this form to request an extension]({{ exceptions_form }}) and select whether the extension is for the PAs, CAs, and/or LAs.
 * You need to submit this form **within a day of the respective {{ site.due_time }}** deadline.
 * We reserve the right to not accept retroactive extension requests for previous weeks.
@@ -189,7 +189,7 @@ Students are responsible for understanding and abiding by UCSB's academic integr
 Assignments allow you to practice skills and concepts, and prepare you for quizzes and the project. Students who do not follow the policies of the course on collaboration and academic honesty will be **reported to the office of academic honesty and should expect to receive an F in the course**. ⚠️  **_All_** students involved in an incident, _regardless if they are copying or sharing their work_, are going to be reported to The Office of Student Conduct.  The process and possible consequences are outlined here: <https://www.sa.ucsb.edu/regulations/student-conduct-code/student-conduct-code>.
 
 If you have doubts or questions about what is allowed or are unclear on the course policies surrounding collaboration or regarding using the information/skills not covered during the course, please ask the Instructors via the forum.
-By default, we treat the usage of concepts that we have not covered in class as a case of the academic integrity violation - even if the student knows the advanced concepts, unless they have explicitly obtained the Instructor's written persmission, their usage of them violates this course's policy.
+By default, we treat the usage of concepts that we have not covered in class as a case of the academic integrity violation - even if the student knows the advanced concepts, unless they have explicitly obtained the Instructor's written permission, their usage of them violates this course's policy.
 
 Rather than copying someone else's work, ask for help. You are not alone in this course! We are here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
 
