@@ -100,10 +100,7 @@ For (the optional) in-class participation, we will be using the [iClicker app](h
     25% Final Project submitted via Gradescope
     5% Weekly reflection; 
        2 lowest/missing will be dropped
-<!--
-    8% Course Participation: in-class activities + iClicker 
-       4 lowest/missing will be dropped
--->
+
 > Note: **There will be no midterms or final exams.** 
 
 Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
