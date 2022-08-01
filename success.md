@@ -8,6 +8,17 @@ seo:
 ---
 
 # How to Succeed in CSW 8 (and other computing courses)
+{:.no_toc}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+
 
 ## Time Management and Scheduling
 
@@ -35,9 +46,8 @@ In our course, each week covers roughly 1 chapter, and we have the following cou
 
 Additionally, each week you are asked to reflect on your week and your learning by submitting a weekly **reflection**.
 
+<!--
 All due times in our class are at **{{ site.due_time }} Pacific time**. Add the days/times as recurring events on your Calendar.
-
----
 
 | Day | Due | Recommended Activity |
 |---|-----|----------------------|
@@ -50,7 +60,7 @@ All due times in our class are at **{{ site.due_time }} Pacific time**. Add the 
 |     |     | **Async activity**: Review concepts, work on/finish related CA and LA |
 | Sat |     | **Async activity**: Finish the Weekly reflection - review the past week, reflect on your learning, provide feedback, note any lingering questions. |
 | Sun | {{ site.due_time }}: Reflection | **Async activity**: Read the book, review concepts, and work on/finish PA, CA, and LA |
-
+-->
 
 ✨ Pro Tip✨ : _**Do not try to complete all chapter sections in one sitting**_! We recommend spending **no more than 2 hours** in a row reading through the sections and completing the activities in zyBooks. Your brain will get tired and will need a break. Trust us: even your prof cannot meaningfully work through this material for more than 2 hours, so save yourself some time and allow for at least a 30-minute break between the study sessions. 
 
@@ -125,10 +135,11 @@ In short: 📖 read _carefully_, ✍️  _**practice**_ your understanding of co
     * begin working on the lab as soon as it is posted and try to finish it as soon as possible so that you have time to ask for help during class/open labs/office hours before it is due.
 
 * **Experiment, experiment some more, and play around with code**
-	* Whenever you have a question, you should try testing it yourself 
-	* Use <http://pythontutor.com/> to run and visualize Python code in the browser (you can also use <https://www.onlinegdb.com/> and switch the language to Python)
+	* Whenever you have a question, you should try testing it yourself (e.g., "What happens if ...?")
+	* Use <http://pythontutor.com/> to run and visualize Python code in the browser (you can also use <https://www.onlinegdb.com/> and switch the language to Python or [Coding Ground](https://www.tutorialspoint.com/execute_python_online.php))
+    * When you see written code example in the textbook, read it to understand what it is supposed to do, then try to reproduce it yourself without looking at the example; compare your code to the solution that you were reproducing.
 	* Use the examples from class/homework/labs and come up with your own scenarios and see if you can write code for them (e.g., if the homework asks you to output values using a `range(0, 3)`, see what happens if you change the starting or the ending point; is there anything else you can change?)
-	* Change your answers if they were mistaken, but even more important, figure out why you were incorrect (ask during class/open labs/office hours/Piazza). 
+	* Change your answers if they were mistaken, but even more important, figure out why you were incorrect - where was the discrepancy coming from? (ask during class/open labs/office hours/Piazza). 
 
 * Remember: learning computer science requires patience.
 * When approaching labs and homework, you should expect to make mistakes and get confused.
@@ -176,7 +187,7 @@ When you approach a solution to any problem, try to apply the following steps:
 
 Before you ever get to coding a solution, you need to come up with its components first. It’s too easy to get lost in the code without having pseudocode/algorithm as a roadmap.
 
-## Workflow
+## Convert pseudocode to code
 Do not write all of your code all at once and then run it.
 
 Write your code incrementally (remember, _incremental program development_), execute it frequently (e.g., every 3-5 lines). This will help to avoid or catch errors, especially, syntax and runtime errors.

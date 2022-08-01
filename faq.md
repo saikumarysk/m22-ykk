@@ -36,8 +36,10 @@ Both courses count as the same course.
 
 ### Is CSW 8 going to be asynchronous?
 
-Based on the feedback from students last year as well as our experience with remote and asynchronous learning, we decided to make CSW 8 **synchronous**. 
-See the ["Attendance"](#attendance) section below for more information.
+<!--Based on the feedback from students last year as well as our experience with remote and asynchronous learning, we decided to make CSW 8 **synchronous**.-->
+Yes, there are no required synchronous components other than the weekly quizzes.
+- See the [Syllabus]({{ site.url }}/{{ site.baseurl }}/about) for more information.
+- See the ["Attendance"](#attendance) section below for more information.
 
 That being said, to help you learn and review the material, we plan to record the main portions of the in-class explanations, announcements, demos, etc. and will post it before the end of that day.
 
@@ -48,7 +50,7 @@ Please see the answer above and the ["Attendance"](#attendance) section below fo
 
 ### Do labs happen during the section time?
 
-Yes, the **Wednesday** section time that you are enrolled in is the lab time.
+Yes, the **Thursday** section time that you are enrolled in is the lab time.
 
 
 ### How do we check when our lab is?
@@ -70,7 +72,8 @@ See the ["Attendance"](#attendance) section below for more information.
 
 ### Are lab activities and lab sessions not the same thing?
 
-We refer to the Wednesday lab section times as _lab sessions_. The _lab activities_ (LAs) that you complete in zyBooks are different from the session times - they refer to the lab assignments posted in zyBooks.
+- We refer to the Thursday lab section times as _lab sessions_. 
+- The _lab activities_ (LAs) that you complete in zyBooks are different from the session times - they refer to the lab assignments posted in zyBooks.
 
 
 ### What is the "Lab Checkpoint" score in gradebook?
@@ -78,11 +81,13 @@ We refer to the Wednesday lab section times as _lab sessions_. The _lab activiti
 Related question: 
 * What does "Lab Checkpoint" refer to on the [schedule]({{ site.url }}{{ site.baseurl }}/calendar)?
 
-This grade item is supposed to capture your participation during the lab session and to ensure that you get started on the labs. 
-We expect that you will be working on the breakout room activities during the labs and will be starting on the lab assignments. 
+This grade item is supposed to capture your potential (optional) participation during the lab session,
+and your progress on the checkpoint labs to ensure that you get started on the labs. 
+<!--We expect that you will be working on the breakout room activities during the labs and will be starting on the lab assignments.-->
 Remember to "Submit" your code in order to see that the automated tests are passing.
 
-Note that if you do not completely finish the breakout room lab or the checkpoint lab, you can still get credit for it: it needs to be completed and be correct before the hard deadline the week after the labs for that week are released.
+Note that if you do not completely finish the checkpoint lab, your score for it will be whatever it is at the time the due date occurs; however,
+you can still get credit for it: it needs to be completed and be correct before the hard deadline the week after the labs for that week are released.
 Thus, if a student misses the checkpoint deadline, but fully completes all those sections by the hard deadline, the _checkpoint score_ will show up as 0, but the _lab total_ will take care of that, since it will be at 100%.
 
 ---
@@ -107,6 +112,8 @@ Contact `support@zybooks.com` and let them know that you are retaking the course
 
 You can do it from the **My Subscription** tab, which you can access from the main zyBooks page that lists all chapters.
 See the instructions / screenshot posted on Gauchospace (see the link in the [Syllabus]({{ site.url }}{{ site.baseurl }}/about#textbook)).
+
+You can also check out the "Account and platform basics" in the [How to Use zyBooks](https://learn.zybooks.com/zybook/HowToUseZyBooks2) book.
 
 
 ### Is there an option for students who cannot currently afford the zybook subscription? Can I defer the purchase of the zyBook?
@@ -134,12 +141,16 @@ There's no need to submit the activities anywhere else, just complete them in zy
 Note that after you complete the PAs and CAs, zyBook will remove your answers, which is supposed to help you come back and review.
 Your completion will be recorded but the answers will not be visible to you.
 
+You can find more information and helpful tips in the [How to Use zyBooks](https://learn.zybooks.com/zybook/HowToUseZyBooks2) book.
+
 
 ### How can we know our progress on zyBooks? 
 
-You can also see the **overall completion** of _each_ of the zyBook activities when you are on the main page of the zyBook (the view that lists all chapters and their sections), which you can get to by clicking on the main title of the book `CMPSCW 8: Introduction to Computer...` at the top of the page, after `My library`.
+You can find more information and helpful tips in the [How to Use zyBooks](https://learn.zybooks.com/zybook/HowToUseZyBooks2) book.
 
-✨ Pro Tip✨ : We recommend spending no more than 2 hours in a row reading through the sections and completing the activities in zyBooks. Your brain will get tired and will need a break. Trust us: even your prof cannot meaningfully work through this material for more than 2 hours, so save yourself some time and allow for at least a 30-minute break between the study sessions.
+You can see the **overall completion** of _each_ of the zyBook activities when you are on the main page of the zyBook (the view that lists all chapters and their sections), which you can get to by clicking on the main title of the book `CMPSCW 8: Introduction to Computer...` at the top of the page, after `My library`.
+
+✨ Pro Tip✨ : We recommend spending **no more than 2 hours in a row** reading through the sections and completing the activities in zyBooks. Your brain will get tired and will need a break. Trust us: even your prof cannot meaningfully work through this material for more than 2 hours, so save yourself some time and allow for at least a 30-minute break between the study sessions.
 
 Please follow the [suggested workflow and the roadmap]({{ site.url }}{{ site.baseurl }}/success)).
 
@@ -157,7 +168,7 @@ You have unlimited attempts. You can also work on the problems after the deadlin
 ### Should we wait to work on zybooks during lab?
 We recommend getting started on them as soon as you can, since we plan to release them at least a day early, so you can come prepared with questions.
 
-Note that you won't be solving _all_ labs during the lab session time. That time is dedicated to the specific breakout room activities, so you need to complete the rest of the labs on your own time, before the deadline.
+Note that you won't be solving _all_ labs during the lab session time. That time is dedicated to the specific breakout room activities and to answering your questions about the material, so you need to complete the rest of the labs on your own time, before the deadline.
 
 
 ### Is the work in zyBooks graded for completion or accuracy?
@@ -182,7 +193,8 @@ You can turn on/off the accessibility feature on the "My subscription" tab of th
 
 ### Is Piazza used for questions about the material and clarification on the lectures?
 
-Yes, this is our main communication platform. Guidelines for how to use it are in the Syllabus and in the _Posting Guidelines_ note on Piazza itself. See more information in the ["Getting Help"](#getting-help) and the ["Communication" section](#communication) below.
+Yes, this is our main communication platform. 
+Guidelines for how to use it are in the [Syllabus]({{ site.url }}{{ site.baseurl }}/about#textbook) and in the _Posting Guidelines_ note on Piazza itself. See more information in the ["Getting Help"](#getting-help) and the ["Communication" section](#communication) below.
 
 
 ### Is there a code for Piazza?
@@ -195,7 +207,6 @@ If you have multiple accounts on Piazza with different email addresses, you can 
 * select “[Account/Email Settings](https://piazza.com/account_settings)”
 * add your email under “Other emails”.
 
-_Note: As was mentioned in the Welcome Email sent from Gauchospace ("Spring into action with CSW 8 (S22)!"), you will receive an email about being added to Piazza on **Tuesday evening**, after the first lecture, once we close the waitlist._
 
 
 ### I do not see the "CSW 8" course on Gradescope and/or Piazza. What can I do?
@@ -229,7 +240,8 @@ Yes, your latest submission will be the one that’s used for grading.
 
 ### Where do I find slides and/or class/lab recordings?
 
-The slides and the recordings are linked on Gauchospace. Look for the playback icon ⏩.
+The slides and the recordings are linked on Gauchospace. 
+Look for the playback icon ⏩.
 
 
 
@@ -253,13 +265,13 @@ If you already have Python installed, check that you have at least **version 3.8
 
 ### What will the reflection be like and how long do they take?
 
-The reflection usually shouldn't take you more than 30 minutes to complete. 
+The reflection usually shouldn't take you more than 15 minutes to complete. 
 The questions will vary each week but there will always be an open-ended question for any feedback/thoughts that you'd like to share. 
 It's a low-stress way to take a look at the past week and the activities for the future week and assess how things are going and what you are learning.
 
 ### Where do I find the weekly reflections?
 
-They will normally be posted on Gauchospace on Thursday, around 1pm.
+They will normally be **posted on Gauchospace on Thursday, around 1pm**.
 This quarter, we will administer them as a google form.
 
 ### I cannot access the reflection form - the link it says I need permission to view the link.
@@ -298,6 +310,7 @@ This course has a consistent weekly pattern to help you manage your workload and
 Set those dates and reminders on your calendar to proactively keep track of the assignments yourself.
 See additional information and resources that we provided on the [How to Succeed in CSW 8]({{site.url}}/{{site.baseurl}}/about) page. 
 
+<!--
 Mondays, Tuesdays and Wednesdays are when the zyBooks activities are due (**hard deadlines**) and are expected to be completed. 
 We recommend finishing your work in zyBooks **_before_** those times (e.g., try to finish everything the night before it is due, so that you have enough time to ask for help). 
 
@@ -305,7 +318,7 @@ In-class quizzes and activities will assume that you have completed the material
 
 If you know in advance that you will not be able to complete the activities before the due date, you can submit a request for an extension. 
 The extension is there to give you a chance to finish up the activity or two; it is not intended for you to spend the entire day trying to get from 0 to 100%.
-
+-->
 We cannot stress enough how important it is to create a study plan for this class and to follow it consistently.
 
 Around Week 3-4, material will begin to pick up its pace and concepts will begin to get more involved, so you need to make sure that you've allocated enough time slots in your schedule to ensure that you can keep up with the course. 
@@ -313,9 +326,9 @@ Around Week 3-4, material will begin to pick up its pace and concepts will begin
 
 ### Quizzes
 
-There will be several quizzes throughout the term, usually announced during the previous week.
+There will be several quizzes every week to help you assess how well you understand the reading and are able to write code.
 
-Quizzes will always be posted on Gauchospace: they will usually be 10-15 minutes and will cover the material that you were supposed to read and work with **up to (and not including)** that week. 
+Quizzes will always be posted on Gauchospace: they will usually be 10-15 minutes (but can be longer) and will cover the material that you were supposed to read and work with **up to (and not including)** that week. 
 They are intended for you to check how well you are following the explanations in zyBooks, and some questions will be similar to the PAs, CAs, and LAs in the book. 
 Quizzes are supposed to be done _individually_ and are meant to ensure that you are keeping up with the reading and are able to use course concepts.
 
@@ -338,14 +351,17 @@ Related questions:
 
 See the corresponding section in the [Syllabus]({{site.url}}/{{site.baseurl}}/about#online-class).
 
-Synchronous class time and lab section attendance are **required**. 
-We will have quizzes and participation activities during the scheduled class, so having a conflict with another class/activity might jeopardize your ability to participate (potentially affecting your grade).
+Synchronous class time and lab section attendance are **not required** but are highly recommended, especially, if you are new to programming. 
+We will have quizzes 
+<!-- and participation activities-->
+during the scheduled class, so having a conflict with another class/activity might jeopardize your ability to participate (potentially affecting your grade).
 
-Whenever possible/reasonable, we will record those sessions and post them on Gauchospace (under that Week's tab) for you to review/refer to them. 
-These recordings are not a substitute for your participation.
+Whenever possible/reasonable, we will record in-class sessions and post them on Gauchospace (under that Week's tab) for you to review/refer to them. 
+<!--These recordings are not a substitute for your participation.-->
 
 If the **lab section** that you are registered for conflicts with your schedule, feel free to attend the section that works for you (there's no need to make any changes on GOLD).
 When registering for zyBooks, select the lab section that you _plan to attend_.
+The labs are intended for you to work with your classmates and to get a chance to ask mentors questions about course materials and assignments.
 
 
 ### Getting Help
@@ -366,11 +382,11 @@ Below are the main ways for you to ask for help (from fastest to slowest respons
     * Please, follow the posted forum guidelines (a pinned post) to make it easier for us to respond. 
     * We cannot guarantee that last-minute posts before a deadline would receive a timely response, so please **start early** and plan your work accordingly. 
 
-* we have a fully-anonymous form where you can ask questions or send your suggestions: <https://forms.gle/jobjhJjWXsmcV3pp6>
+* we have a fully-anonymous form where you can ask questions or send your suggestions: [{{ site.anon_form }}]({{ site.anon_form }})
 
 #### How do I send a direct message to TAs or professor?
 
-Please contact us via Piazza. Read the pinned post there titled _Posting Guidelines_, which describes how to submit a direct message to the **Instructors**.
+Please contact us via Piazza. Read the pinned post there titled _Posting Guidelines_, which describes how to submit a direct message to the **Instructors**. See the [Communication](#communication) section below.
 
 
 #### "Help! I'm lost!" - How to ask for help when you don't know what to ask
@@ -398,9 +414,9 @@ We will use the corresponding "Week" tabs and "Instructor Announcements" on Gauc
 
 For your convenience, we plan to keep the Calendar on this site updated as well but Gauchospace is still considered the main and official source of information.
 
-This FAQ page should be your first place to check if you have a question. 
-If you don't find the answer, then search through the posts on the forum to see if your question has been answered there. 
-We ask that you do not email the Mentors directly and instead use the forum message that can be addressed directly to the instructors/TAs!
+- This FAQ page should be your first place to check if you have a question. 
+- If you don't find the answer, then search through the posts on the forum to see if your question has been answered there. 
+- We ask that you do not email the Mentors directly and instead use the forum message that can be addressed directly to the instructors/TAs!
 
 It is your responsibility to make sure that you check and keep up with the information that we post. 
 We hope that you will also participate in the exchanges on the forum and help us create a supportive and collaborative environment where everyone is comfortable asking questions and experimenting with the powerful programming concepts that we will be using in this class.

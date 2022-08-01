@@ -2,7 +2,7 @@
 layout: page
 title: CSW8 Syllabus
 nav_order: 1
-last_modified_date: 2022-03-28
+last_modified_date: 2022-08-01
 description: >-
     Course policies and information.
 ---
@@ -18,9 +18,10 @@ description: >-
 
 ---
 
-## UCSB CSW 8 (Introduction to Computer Science) Online Syllabus - Spring 2022   
+## UCSB CSW 8 (Introduction to Computer Science) Online Syllabus - Summer 2022 (Session B) 
 
 Introduction to computer program development is for students with little to no programming experience. 
+
 The course covers basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, testing, and documentation. Note: Programming is concepts + skill, and skill requires <span style="color:green">**practice**</span>.  
 
 This class is similar to a language class or learning to play a musical instrument: you have to continuously and consistently practice, repeating the fundamentals until you can assemble them together into more complex constructs.
@@ -31,7 +32,8 @@ See the [Learning Objectives]({{site.url}}/{{site.baseurl}}/ref/goals) of this c
 ### Online class
 See [Gauchospace](https://gauchospace.ucsb.edu) for more information (Try the Zoom link before the first day; bookmark it for easy access).   
 
-You'll attend class and lab/discussion online via Zoom during the specified times, just like a physical class. Class time and labs **require synchronous interactions and active participation**.
+<!-- You'll attend class and lab/discussion online via Zoom during the specified times, just like a physical class. -->
+Class time and labs **do _not_ require** synchronous interactions and participation but are highly recommended: the instructor and the TAs will be available during the scheduled class/lab times. Additionally, some asynchronous activities (e.g., quizzes) are scheduled during the class time, so even if you are not online on Zoom, you are expected to complete it.
 
 Reminder: You are **not** supposed to be registered for another UCSB course that overlaps with this one. If you have a course conflict, you **must have** specific written permission from **both** instructors to stay enrolled in both courses. We will _not_ make any accommodations for you.
 
@@ -43,65 +45,72 @@ Reminder: You are **not** supposed to be registered for another UCSB course that
 
 **Course mentors** (TAs / ULAs): see [more info here]({{site.url}}/{{site.baseurl}}/staff); office hours are [linked here]({{site.url}}/{{site.baseurl}}/schedule).
 
-**Class time**: Tuesday and Thursday, 9:30--10:45am PT (Pacific/California time), synchronously on Zoom (the link is posted on Gauchospace)
+**Class time**: Tuesday and Thursday, 9:30--10:45am PT (Pacific/California time) <!-- synchronously on Zoom (the link is posted on Gauchospace) -->
+* We will use the same Zoom link for class, labs, and office hours
+* The link is posted on Gauchospace
 
 ---
 
+### Current term policies
 _Make sure that you read this page carefully and are aware of the course policies **for this term**. 
-Do not automatically assume that the course is the same as the one that you or your friends might have taken before._
+**Do not** automatically assume that the course is the same as the one that you or your friends might have taken before._
 
 ---
 
 ### Textbook
 1. Create an account at [zyBooks.com](https://www.zybooks.com),
-2. Purchase a subscription [as described on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/page/view.php?id=1639309). Please read the additional information and notes that are posted there.
+2. Purchase a subscription [as described on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/page/view.php?id=1639309). 
+3. Please read the additional information and notes that are posted there.
 
 > Make sure to use your <span style="color:red">**7-digit student ID _without_ any dashes or spaces** (ONLY digits)</span>. (⚠️  <span style="color:orange">_You might fail the course if this ID is incorrectly entered._</span>)
 
-_zyBook will allow you to update your ID if you accidentally enter it incorrectly._
+* Your ID must match the one you see in your account on Gauchospace.
+* _zyBook will allow you to update your ID if you accidentally enter it incorrectly._
 
-Your ID must match the one you see on Gauchospace.
 
 ### Communication
 **Do _not_ message us individually**. 
 
-Please use the Q&A platform **Piazza** to communicate with the Instructor and course mentors (you can contact us directly via a non-public message addressed to the **Instructors**). You can also post on this forum **anonymously** to your classmates.
+Please use the Q&A platform **Piazza** to communicate with the Instructor and course mentors (you can contact us directly via a private message addressed directly to the **Instructors**). You can also post on this forum **anonymously** to your classmates.
 
 We will always use only the official course platforms to reach out to you: posts on Piazza, Gauchospace, Gradescope, and ucsb email. 
 <span style="color:orange">If anyone contacts you through an unofficial channel claiming to be a mentor/instructor, offering to help you or to debug your code, please, _do not share your work_ and immediately send a message via Piazza to the Instructors.</span>
 
 ### Course Tools
 We recommend bookmarking the following links:
-* [Gauchospace](http://gauchospace.ucsb.edu) (the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
-* [zybook](https://learn.zybooks.com/library) (PAs, CAs, LAs -- see below), 
-* [Gradescope](https://www.gradescope.com) (quizzes, some labs, project), 
+* [Gauchospace](http://gauchospace.ucsb.edu) (always start here - this is the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
+* [zybook](https://learn.zybooks.com/library) (weekly assignments - PAs, CAs, LAs - see below), 
+* [Gradescope](https://www.gradescope.com) (coding-related submissions - quizzes, some labs, project), 
 * [Piazza](https://piazza.com) (Q&A forum)
-* [this course website]({{ site.url }}{{ site.baseurl }}) is for convenient access to the course information
+* [this course website]({{ site.url }}{{ site.baseurl }}) is just for convenient access to the course information, e.g., office hours
 
 The link to the form to request an extension and to submit anonymous feedback are linked [below](#request-for-accommodations).
 
 You will also submit your work through Google Forms or Qualtrics links - they will be shared during the class, posted via Gauchospace, or linked in the respective assignment.
 
-For in-class participation, we will be using the [iClicker app](https://macmillan.force.com/iclicker/s/article/Remote-Instruction-iClicker-Cloud-Student-Onboarding-Resources), which is linked on Gauchospace - use that link to create an account or log in and you will automatically be added to the course.
+For (the optional) in-class participation, we will be using the [iClicker app](https://macmillan.force.com/iclicker/s/article/Remote-Instruction-iClicker-Cloud-Student-Onboarding-Resources), which is linked on Gauchospace - use that link to create an account or log in and you will automatically be added to the course.
 
 ### Grading
     5% Participation Activities (PAs): in zyBook
     15% Challenge Activities (CAs): in zyBook
     25% Lab Activities (LAs): in zyBook
-        5% Checkpoint Lab Activities, lowest 2 dropped
+        5% Checkpoint Lab Activities, lowest 1 dropped
         20% All Lab Activities (LAs)
-    20% Quizzes: 3-6 quizzes, lowest will be dropped
+    25% Quizzes: 5-6 quizzes, lowest will be dropped
     25% Final Project submitted via Gradescope
-    2% Weekly reflection; 
+    5% Weekly reflection; 
        2 lowest/missing will be dropped
+<!--
     8% Course Participation: in-class activities + iClicker 
        4 lowest/missing will be dropped
-
+-->
 > Note: **There will be no midterms or final exams.** 
 
-Quizzes will usually be announced during the previous week/class. 
+Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
 
+<!--
 **iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
+-->
                                          
 Final course grade will use the 90/80/70/60 scale, with +/- grades (i.e., it is possible to get B-, B, B+, etc.). 
 
@@ -116,13 +125,18 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 ### Course structure and deadlines
 
-<span style="color:green">Each week covers one chapter in zyBooks</span> (_Week 1 is the exception, the assignments for that week are due along with the assignments for Week 2_). Due each week (always, at <span style="color:green">**the same time**</span>):
+<span style="color:green">Each week covers one chapter in zyBooks</span>.
+<!--
+(_Week 1 is the exception, the assignments for that week are due along with the assignments for Week 2_). 
+-->
 
-> **PA**{: .label .label-orange }(Participation Activities): due **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
+Due each week (always, at <span style="color:green">**the same time**</span>):
 
-> **CA**{: .label .label-blue }(Challenge Activities): due **before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>
+> **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
 
-> **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Wednesday {{ site.due_time }}</span> (submit them before 9am to focus on the labs for the new week)
+> **CA**{: .label .label-blue }(Challenge Activitiwe recommend you to complete them**before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them
+
+> **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Thursday {{ site.due_time }}</span> (complete them before 9am to focus on the labs for the current week)
 
 Deadlines for all activities are available on Gauchospace (and are listed on the [Calendar]({{site.url}}/{{site.baseurl}}/calendar)). 
 
@@ -140,12 +154,13 @@ Any such requests need to be arranged with the DSP (see their contact informatio
 As soon as possible, submit your documented accommodation and attach the documentation (e.g., a signed letter from the coach with the tournament dates _with your name on it_) via 
 the request for an extension form
 linked [below](#request-for-accommodations).
-You will be required to submit this form separately for all weeks in which you will need the accommodation.
+You need to submit this form separately for all weeks in which you will need the accommodation.
 
 ### Deadline extension for zyBook activities
-During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). Do not contact us via the forum or the email, just [submit this form to request an extension](https://forms.gle/QQkXMfKswjDbCEi49) and select whether the extension is for the PAs, CAs, and/or LAs.
+During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). 
+Do not contact us via the forum or the email, just [submit this form to request an extension]({{ exceptions_form }}) and select whether the extension is for the PAs, CAs, and/or LAs.
 * You need to submit this form **within a day of the respective {{ site.due_time }}** deadline.
-* We will not accept retroactive extension requests for previous weeks.
+* We reserve the right to not accept retroactive extension requests for previous weeks.
 * The deadline extensions **do not** apply to the **final project**.
 
 If your situation is more serious and requires a longer extension, you need to provide the **official documentation** and complete the steps described in the section below. 
@@ -155,32 +170,39 @@ If your situation is more serious and requires a longer extension, you need to p
 If there are issues which are affecting your ability to meet course deadlines, please submit the request for an extension form as soon as you find out about the issue. Otherwise, _we do not accept late work or provide individual make-up assignments_.
 
 An extension due to an emergency must be based on an **official documentation** that shows 1) your _name_, 2) the _reason/issue_ description, and 3) _dates_ (e.g., even the processed tickets to fly home for an emergency can count as documentation as long as your name and dates are on them).
-You can black out any sensitive information and send it through [the request for an extension form](https://forms.gle/QQkXMfKswjDbCEi49) **as soon as possible**. Please, do not contact us asking for a longer extension without providing the **official documentation** that lists the 3 required pieces of information. 
+You can black out any sensitive information and send it through [the request for an extension form]({{ site.exceptions_form }}) **as soon as possible**. 
+
+Please, do not contact us asking for a longer extension without providing the **official documentation** that lists the 3 required pieces of information.
 
 ---
 
-## Collaboration
+## Collaboration and Academic Integrity
 You can help each other by engaging in discussion on the official course Q&A forum. Some labs labeled "Breakout Room" are also designed to be discussed and worked on together with your team.
 
 **Do not share your code from _any_ course assignments (especially quizzes, zyBook activities and the project) on _any_ online site or with anyone else**. ⚠️  Doing so, will be considered a case of academic dishonesty and can result in failing the course. 
 
 <!--<a src="https://tinybuddha.com/fun-and-inspiring/a-single-lie/">-->
 ![A single lie discovered is enough to create doubt in every truth expressed.](https://cdn.tinybuddha.com/wp-content/uploads/2022/01/A-single-lie-600x600.png){: width="300px" style="float:left; padding-right:10px" }
-Please complete your own work and keep it to yourself. You may work on some of the LAs with a partner _only if it is indicated on the assignment_.  Even if you are working with a partner you should each substantially contribute, and develop/submit each in your own zyLab windows (we can see your progress history). **Posting course assignments/quizzes online, or having others code assignments for you, or copy-pasting code from elsewhere, IS NOT ACCEPTABLE and is a violation of the university policies.** 
+Please complete your own work and keep it to yourself. You may work on some of the LAs with a partner _only if it is indicated on the assignment_.  Even if you are working with a partner you should each substantially contribute, and develop/submit each in your own zyLab windows (we can see your progress history). 
+
+**Posting course assignments/quizzes online, or having others code assignments for you, or copy-pasting code from elsewhere, IS NOT ACCEPTABLE and is a violation of the university policies.** 
 Penalties for cheating are severe — they range from a zero grade for the assignment or the course, up to a dismissal from the University for a second offense. 
 Students are responsible for understanding and abiding by UCSB's academic integrity policies and reviewing the examples of what constitutes a violation: <https://studentconduct.sa.ucsb.edu/academic-integrity>.
 
 Assignments allow you to practice skills and concepts, and prepare you for quizzes and the project. Students who do not follow the policies of the course on collaboration and academic honesty will be **reported to the office of academic honesty and should expect to receive an F in the course**. ⚠️  **_All_** students involved in an incident, _regardless if they are copying or sharing their work_, are going to be reported to The Office of Student Conduct.  The process and possible consequences are outlined here: <https://www.sa.ucsb.edu/regulations/student-conduct-code/student-conduct-code>.
 
-If you have doubts or questions about what is allowed or are unclear on the course policies surrounding collaboration, please ask the Instructors via the forum.
+If you have doubts or questions about what is allowed or are unclear on the course policies surrounding collaboration or regarding using the information/skills not covered during the course, please ask the Instructors via the forum.
+By default, we treat the usage of concepts that we have not covered in class as a case of the academic integrity violation - even if the student knows the advanced concepts, unless they have explicitly obtained the Instructor's written persmission, their usage of them violates this course's policy.
+
 Rather than copying someone else's work, ask for help. You are not alone in this course! We are here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
 
 🌟 We provide you with a set of notes on [How to Succeed in this or any other computing course]({{site.url}}/{{site.baseurl}}/success), and we are available to help you on the forum and during class and office hours, so that you can learn and do your work effectively and efficiently.
 
 ### Regret Clause and Academic Integrity
 If you cross the line and violate academic integrity
-but bring it to our attention within 48 hours by submitting the [Regret form](https://forms.gle/H3cgP3p3imP1sscx9),
+but bring it to our attention within 48 hours by submitting the [Regret form]({{ site.regret_form }}),
 we may give you a 0 for the work submitted, but we will not refer the matter for further disciplinary action, except in cases of repeated acts.
+Alternatively, if you are the one who shared the work, we might let you keep your grade but will submit the incident to the Office of Student Conduct, recommending no further action.
 
 ### Copyright of Course Materials
 The course materials for this course, including videos, PowerPoint presentations, tests, outlines, and similar materials, are protected by the U.S. copyright law and [the University policy](https://copyright.universityofcalifornia.edu/resources/recorded-presentations.html). The instructor is the exclusive [owner of the copyright](https://copyright.universityofcalifornia.edu/resources/ownership-course-materials.html) in those materials, unless stated otherwise. You may take notes and make copies of course materials _for your own use_. 
@@ -205,7 +227,7 @@ We (instructor and mentors) strive to create an environment in which students fr
 
 _Disrespectful, unprofessional, and otherwise inappropriate behavior can be grounds for receiving a zero in this course._
 
-Help us improve the effectiveness of the course for you personally, or for other students or student groups; help us create a welcoming, inclusive atmosphere that supports a diversity of thoughts, perspectives and experiences, and honors your identities. If at any point you are made to feel uncomfortable, disrespected, or excluded by the course staff or fellow students, please, don’t hesitate to talk to us about it so that we may address the issue and maintain a supportive and inclusive learning environment. If you are uncomfortable bringing it up with the course staff directly, [submit anonymous feedback](https://forms.gle/RSM53V1B6gmyFr3G9) or contact the [Office of the Ombud](https://ombuds.ucsb.edu/students/services).
+Help us improve the effectiveness of the course for you personally, or for other students or student groups; help us create a welcoming, inclusive atmosphere that supports a diversity of thoughts, perspectives and experiences, and honors your identities. If at any point you are made to feel uncomfortable, disrespected, or excluded by the course staff or fellow students, please, don’t hesitate to talk to us about it so that we may address the issue and maintain a supportive and inclusive learning environment. If you are uncomfortable bringing it up with the course staff directly, [submit anonymous feedback]({{ site.anon_form }}) or contact the [Office of the Ombud](https://ombuds.ucsb.edu/students/services).
 
 ### Student Organizations and Resources
 

@@ -24,6 +24,11 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 due_time: "11PM" # TODO: also update it in the _modules script
 
+# TODO: update the URLs if using Google forms 
+anon_form: "https://forms.gle/jobjhJjWXsmcV3pp6"
+exceptions_form: "https://forms.gle/QQkXMfKswjDbCEi49"
+regret_form: "https://forms.gle/H3cgP3p3imP1sscx9"
+
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
@@ -77,6 +82,8 @@ collections:
   resource:
 #permalink: "/:collection/:path/"
     permalink: "/:path/"
+    output: true
+  admin:
     output: true
 # Default layouts for each collection type
 defaults:
