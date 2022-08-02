@@ -27,53 +27,28 @@ timeline:
   - '8:00 PM'
   - '8:30 PM'
   - '9:00 PM'
+  - '9:30 PM'
+  - '10:00 PM'
+  - '10:30 PM'
 schedule:
   - name: Monday
     events:
       - name: Office Hours
         start: 1:00 PM
-        end: 3:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 3:00 PM
-        end: 5:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 5:00 PM
-        end: 7:00 PM
-        location: MENTOR
+        end: 2:00 PM
+        location: Prof K
   - name: Tuesday
     events:
       - name: Lecture
         start: 9:30 AM
         end: 10:45 AM
         location: Zoom
-      - name: Office Hours
-        start: 11:00 AM
-        end: 1:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 1:00 PM
-        end: 3:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 3:00 PM
-        end: 5:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 5:00 PM
-        end: 7:00 PM
-        location: MENTOR
   - name: Wednesday
     events:
       - name: Lecture
         start: 9:30 AM
         end: 10:45 AM
         location: Zoom
-      - name: Office Hours
-        start: 5:00 PM
-        end: 7:00 PM
-        location: MENTOR
   - name: Thursday
     events:
       - name: Lecture
@@ -100,24 +75,15 @@ schedule:
         start: 5:00 PM
         end: 6:20 PM
         location: Zoom
+      - name: Office Hours
+        start: 10:00 PM
+        end: 11:00 PM
+        location: Prof K
   - name: Friday
     events:
       - name: Office Hours
-        start: 8:00 AM
-        end: 10:00 AM
-        location: MENTOR
-      - name: Office Hours
-        start: 10:00 AM
-        end: 12:00 PM
-        location: MENTOR
-      - name: Office Hours
         start: 1:00 PM
         end: 2:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 4:00 PM
-        end: 5:00 PM
-        location: MENTOR
-  
+        location: Prof K
 ---
 

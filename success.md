@@ -46,9 +46,12 @@ In our course, each week covers roughly 1 chapter, and we have the following cou
 
 Additionally, each week you are asked to reflect on your week and your learning by submitting a weekly **reflection**.
 
-<!--
-All due times in our class are at **{{ site.due_time }} Pacific time**. Add the days/times as recurring events on your Calendar.
+All due times in our class are at **{{ site.due_time }} Pacific time**. 
+Check the [Course structure and deadlines in the Syllabus]({{ site.url }}{{ site.baseurl }}/about/#course-structure-and-deadlines)
+and 
+add the days/times as recurring events and reminders on your Calendar.
 
+<!--
 | Day | Due | Recommended Activity |
 |---|-----|----------------------|
 | Mon | {{ site.due_time }}: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. |

@@ -78,7 +78,7 @@ We will always use only the official course platforms to reach out to you: posts
 
 ### Course Tools
 We recommend bookmarking the following links:
-* [Gauchospace](http://gauchospace.ucsb.edu) (always start here - this is the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
+* [Gauchospace](http://gauchospace.ucsb.edu) (**always start here** - this is the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
 * [zybook](https://learn.zybooks.com/library) (weekly assignments - PAs, CAs, LAs - see below), 
 * [Gradescope](https://www.gradescope.com) (coding-related submissions - quizzes, some labs, project), 
 * [Piazza](https://piazza.com) (Q&A forum)
@@ -101,16 +101,10 @@ For (the optional) in-class participation, we will be using the [iClicker app](h
     25% Quizzes: 5-6 quizzes, lowest will be dropped
     25% Final Project submitted via Gradescope
     5% Weekly reflection; 
-       2 lowest/missing will be dropped
+       1 lowest/missing will be dropped
 
 > Note: **There will be no midterms or final exams.** 
 
-Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
-
-<!--
-**iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
--->
-                                         
 Final course grade will use the 90/80/70/60 scale, with +/- grades (i.e., it is possible to get B-, B, B+, etc.). 
 
 Note that A+ is given at the discretion of the instructor for outstanding performance and participation that go beyond the regular class expectations.
@@ -131,12 +125,18 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 Due each week (always, at <span style="color:green">**the same time**</span>):
 
-> **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
+> **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week (for example, <span style="color:green">Monday {{ site.due_time }}</span>)
 
-> **CA**{: .label .label-blue }(Challenge Activitiwe recommend you to complete them **before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them
+> **CA**{: .label .label-blue }(Challenge Activitiies): we recommend you to complete them **before** the labs (we suggest completing them by <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them the next day)
 
 > **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Thursday {{ site.due_time }}</span> (complete them before 9am to focus on the labs for the current week)
 
+Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
+
+<!--
+**iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
+-->
+                                         
 Deadlines for all activities are available on Gauchospace (and are listed on the [Calendar]({{site.url}}/{{site.baseurl}}/calendar)). 
 
 <span style="color:green">These are hard deadlines beyond which we **will not accept late submissions**.</span>
