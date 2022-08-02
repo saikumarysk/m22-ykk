@@ -88,7 +88,9 @@ The link to the form to request an extension and to submit anonymous feedback ar
 
 You will also submit your work through Google Forms or Qualtrics links - they will be shared during the class, posted via Gauchospace, or linked in the respective assignment.
 
+<!--
 For (the optional) in-class participation, we will be using the [iClicker app](https://macmillan.force.com/iclicker/s/article/Remote-Instruction-iClicker-Cloud-Student-Onboarding-Resources), which is linked on Gauchospace - use that link to create an account or log in and you will automatically be added to the course.
+-->
 
 ### Grading
     5% Participation Activities (PAs): in zyBook
