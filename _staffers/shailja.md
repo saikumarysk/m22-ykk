@@ -1,8 +1,7 @@
 ---
 name: S. Shailja
 pronouns: She/her 
-role: Teaching Assistants
-ula_for: CS 8
+role: Teaching Assistant
 photo: Shailja.jpg
 ---
 
