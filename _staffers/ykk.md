@@ -5,7 +5,7 @@ pronouns: she/they
 photo: ykk-avatar.png
 ---
 
-[Schedule a meeting with me]https://appt.link/ykk){: .btn .btn-outline }
+[Schedule a meeting with me](https://appt.link/ykk){: .btn .btn-outline }
 
 Hi everyone! I am really excited about teaching this class again, since every time we offer it, we learn something new about how to present the introductory Computer Science concepts in a more intuitive, fun and/or creative way. 
 
