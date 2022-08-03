@@ -18,6 +18,7 @@ Thu, Sep 1
 : 09:30am **Class**{: .label .label-purple } + **Lab sessions**{: .label .label-purple }
 
 Fri, Sep 2
-: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA05**{: .label .label-orange }**CA05**{: .label .label-blue }**LA04**{: .label .label-green }
+: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA05**{: .label .label-orange }**CA05**{: .label .label-blue }**LA04**{: .label .label-green }**LA05 Checkpoint**{: .label .label-green }
+
 
 

@@ -22,6 +22,7 @@ Thu, Sep 8
 Fri, Sep 9
 : <p class="text-grey-dk-000 mb-0"><em>Instruction Ends (Session B)</em></p>
 
-: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA06**{: .label .label-orange }**CA06**{: .label .label-blue }**LA05**{: .label .label-green }
+: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA06**{: .label .label-orange }**CA06**{: .label .label-blue }**LA05**{: .label .label-green }**LA06 Checkpoint**{: .label .label-green }
+
 
 
