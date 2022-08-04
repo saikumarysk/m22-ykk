@@ -34,8 +34,12 @@ schedule:
   - name: Monday
     events:
       - name: Office Hours
-        start: 1:00 PM
-        end: 2:00 PM
+        start: 10:00 AM
+        end: 11:00 AM
+        location: Raphael
+      - name: Office Hours
+        start: 12:00 PM
+        end: 1:00 PM
         location: Prof K
   - name: Tuesday
     events:
@@ -43,12 +47,24 @@ schedule:
         start: 9:30 AM
         end: 10:45 AM
         location: Zoom
+      - name: Office Hours
+        start: 11:00 AM
+        end: 11:00 AM
+        location: Shailja
   - name: Wednesday
     events:
       - name: Lecture
         start: 9:30 AM
         end: 10:45 AM
         location: Zoom
+      - name: Office Hours
+        start: 12:00 PM
+        end: 1:00 PM
+        location: Shailja
+      - name: Office Hours
+        start: 6:00 PM
+        end: 7:00 PM
+        location: Raphael
   - name: Thursday
     events:
       - name: Lecture
@@ -76,14 +92,26 @@ schedule:
         end: 6:20 PM
         location: Zoom
       - name: Office Hours
+        start: 6:30 PM
+        end: 7:30 PM
+        location: Saikumar
+      - name: Office Hours
         start: 10:00 PM
         end: 11:00 PM
         location: Prof K
   - name: Friday
     events:
       - name: Office Hours
-        start: 1:00 PM
-        end: 2:00 PM
+        start: 09:00 AM
+        end: 11:00 AM
+        location: Kev
+      - name: Office Hours
+        start: 11:00 AM
+        end: 12:00 PM
+        location: Apurv
+      - name: Office Hours
+        start: 12:00 PM
+        end: 1:00 PM
         location: Prof K
 ---
 
