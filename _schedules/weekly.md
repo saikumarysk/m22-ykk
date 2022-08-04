@@ -49,7 +49,7 @@ schedule:
         location: Zoom
       - name: Office Hours
         start: 11:00 AM
-        end: 11:00 AM
+        end: 12:00 PM
         location: Shailja
   - name: Wednesday
     events:
