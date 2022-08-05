@@ -74,23 +74,23 @@ schedule:
       - name: Section
         start: 11:00 AM
         end: 12:20 PM
-        location: Zoom
+        location: Raphael, Kev
       - name: Section
         start: 12:30 PM
         end: 1:50 PM
-        location: Zoom
+        location: Kev, Saikumar
       - name: Section
         start: 2:00 PM
         end: 3:20 PM
-        location: Zoom
+        location: Saikumar, Apurv
       - name: Section
         start: 3:30 PM
         end: 4:50 PM
-        location: Zoom
+        location: Apurv, Shailja
       - name: Section
         start: 5:00 PM
         end: 6:20 PM
-        location: Zoom
+        location: Shailja, Raphael
       - name: Office Hours
         start: 6:30 PM
         end: 7:30 PM
