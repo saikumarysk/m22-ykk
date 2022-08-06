@@ -528,6 +528,32 @@ print('Hello, World'))
 
 # Type Errors
 
+### `TypeError: 'tuple' object does not support item assignment`
+
+* Example erroneous code:
+```py
+my_tuple = ("March", 8, "Holiday")
+my_tuple[2] = "International Women's Day"
+```
+*   **Cause**: Tuples are immutable, so it is not possible to modify their contents.
+*   **Check**: Does the object need to be a tuple? Were you supposed to convert it into another type (e.g., a list) first, before modifying it?
+
+* Potential solution:
+
+```py
+my_list = list(my_tuple) # convert a tuple into a list
+my_list[2] = "International Women's Day" # modify the list item
+my_tuple = tuple(my_list) # convert the list into a new tuple
+print(my_tuple)
+('March', 8, "International Women's Day")
+```
+
+[Back to top](#top)
+
+---
+
+
+
 ### `TypeError: argument of type 'int' is not iterable`
 
 Related error: [`TypeError: 'list' object cannot be interpreted as an integer`](#typeerror-list-object-cannot-be-interpreted-as-an-integer)
