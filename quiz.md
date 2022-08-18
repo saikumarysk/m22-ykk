@@ -1,10 +1,6 @@
 ---
 layout: home
 title: Quiz Info
-nav_order: 7
-seo:
-  type: Course
-  name: Quiz Notes, Strategies, and Considerations
 ---
 
 # Quiz Notes, Strategies, and Considerations
