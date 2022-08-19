@@ -220,15 +220,16 @@ Please, first read the "Important notes" section above.
 
 If those notes do not fix the issue, check the following:
 - do you have an `if __name__ == "__main__"` line in your code? is it _not_ indented?
-- is **everything** underneath the if-name-main line indented?
-- is the `def` line of code - the only line of code that's at the same level of indentation as the if-name-main line?
+- is **_everything underneath_** the if-name-main line indented?
+- is the `def` (function signature) line of code - the only line of code that's at the same level of indentation as the if-name-main line?
+- are all your `input()` calls inside the main program (i.e., in the if-name-main block **_not_** in your function)?
 
 If your unit tests are not passing, you need to go back to the lab instructions and carefully read them:
 - according to the instructions, is the function supposed to `print` or `return` the result?
-- If the function is supposed to return the result, are you returning it? Are you returning the correct object type?
+- If the function is supposed to return the result, are you returning it? Are you returning the correct object **type**?
 - Are you returning the correct value? If you are returning something that the main program is supposed to print, then you might be returning an incorrect value.
 - Is the **main program** supposed to `print` something? Are you trying to return its output from the function instead?
-- Are you using all the parameters inside your function? (are you using a different name for the variable inside the scope of the function?)
+- Are you using **all the function parameters** _inside_ your function? (are you using a different name for the variable inside the scope of the function?)
 - If you have conditionals (`if`/`else`), does your `return` variable have a default value in cases none of the conditions evaluates to True? (if you define the return variable inside the if, elif statements and you'll get the "variable name not defined" when returning its value if the conditions are not met)
 - Are you calling the function correctly? Check your arguments against the parameters.  Is the **order of the arguments** correct? 
 
