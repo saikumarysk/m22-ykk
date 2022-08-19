@@ -205,7 +205,7 @@ if __name__ == "__main__":
 
 ```
 
-## Important notes
+## Important notes 
 📌 A few things to notice:
 * Since the instructions didn't ask to `print` anything _within the function_, the definition should **not** include a `print`. 
     * That's not always the case, because sometimes we need to do both (i.e., `print` **and** `return` something) -- **the _instructions_ will specify exactly what you need to do**, so you don't need to guess, just read and follow the instructions.
@@ -213,6 +213,25 @@ if __name__ == "__main__":
    * Your functions should NOT rely on variables that are outside of the function definition  (e.g., global variables, which are outside of the `def` block, or variables that are inside the `if __name__` block).
    * If you listed parameter names in the function signature, which you are not using inside of your function body, then re-read the previous bullet point and the lab instructions (ask yourself: _"why does my function have a parameter that I haven't used inside the function?"_).
 * You _need to read_ the first part of the instructions (intro) in order to know how to solve the problem and write the body of the function. Read and follow **_all_** instructions carefully.
+
+## My unit tests are not passing; what do I do?
+
+Please, first read the "Important notes" section above.
+
+If those notes do not fix the issue, check the following:
+- do you have an `if __name__ == "__main__"` line in your code? is it _not_ indented?
+- is **everything** underneath the if-name-main line indented?
+- is the `def` line of code - the only line of code that's at the same level of indentation as the if-name-main line?
+
+If your unit tests are not passing, you need to go back to the lab instructions and carefully read them:
+- according to the instructions, is the function supposed to `print` or `return` the result?
+- If the function is supposed to return the result, are you returning it? Are you returning the correct object type?
+- Are you returning the correct value? If you are returning something that the main program is supposed to print, then you might be returning an incorrect value.
+- Is the **main program** supposed to `print` something? Are you trying to return its output from the function instead?
+- Are you using all the parameters inside your function? (are you using a different name for the variable inside the scope of the function?)
+- If you have conditionals (`if`/`else`), does your `return` variable have a default value in cases none of the conditions evaluates to True? (if you define the return variable inside the if, elif statements and you'll get the "variable name not defined" when returning its value if the conditions are not met)
+- Are you calling the function correctly? Check your arguments against the parameters.  Is the **order of the arguments** correct? 
+
 
 We hope that this is helpful 👍. If you have any follow-up questions 🧐 or comments, we look forward to addressing them on the forum.
 
