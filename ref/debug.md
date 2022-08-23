@@ -528,7 +528,39 @@ print('Hello, World'))
 
 # Type Errors
 
+### `TypeError: 'int' object is not callable`
+
+Related error: TypeError: 'float' object is not callable
+
+* Example erroneous code: If we call the `print(sum(...))`, we'll see that it correctly prints the sum of the collection. However, the first line, "redefines" the function and turns it into an `int`, which makes it no longer callable.
+
+```py
+sum = sum([1, 2, 3])
+print(sum)
+print(sum([11, 2, 3]))
+```
+
+* **Cause**: The function name was overwritten, so it no longer refers to a function. The object with the same name does not refer to a function and, therefore, cannot be called.
+* **Check**: 
+    * Verify that you are not using a name of a built-in function (such as `sum` or `list`) as a variable name. Sanity check: If your IDE colors the variable name into a different color than your other variables, do not use it as a variable name.
+    * Check that you are not redefining your custom function name somewhere in your code: do you have an assignment statement that has your function name on the left side of the assignment operator `=`?
+
+* Correct code: 
+```py
+my_sum = sum([1, 2, 3]) # the variable name is different from the function
+print(my_sum)
+print(sum([11, 2, 3])) # sum() has not been redefined
+```
+
+[Back to top](#top)
+
+---
+
+
+
 ### `TypeError: 'tuple' object does not support item assignment`
+
+Related error: `TypeError: 'str' object does not support item assignment`
 
 * Example erroneous code:
 ```py
