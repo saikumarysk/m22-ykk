@@ -103,7 +103,7 @@ schedule:
     events:
       - name: Office Hours
         start: 09:00 AM
-        end: 11:00 AM
+        end: 10:00 AM
         location: Kev
       - name: Office Hours
         start: 11:00 AM
