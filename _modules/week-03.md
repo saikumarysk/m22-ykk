@@ -20,6 +20,7 @@ Thu, Aug 18
 : 09:30am **Class**{: .label .label-purple } + **Lab sessions**{: .label .label-purple }
 
 Fri, Aug 19
-: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA03**{: .label .label-orange }**CA03**{: .label .label-blue }**LA02**{: .label .label-green }
+: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA03**{: .label .label-orange }**CA03**{: .label .label-blue }**LA02**{: .label .label-green }**LA03 Checkpoint**{: .label .label-green }
+
 
 

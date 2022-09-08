@@ -18,6 +18,7 @@ Thu, Aug 25
 : 09:30am **Class**{: .label .label-purple } + **Lab sessions**{: .label .label-purple }
 
 Fri, Aug 26
-: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA04**{: .label .label-orange }**CA04**{: .label .label-blue }**LA03**{: .label .label-green }
+: **11PM** ⏰  Due: **Reflection**{: .label .label-yellow }**PA04**{: .label .label-orange }**CA04**{: .label .label-blue }**LA03**{: .label .label-green }**LA04 Checkpoint**{: .label .label-green }
+
 
 

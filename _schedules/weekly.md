@@ -27,21 +27,20 @@ timeline:
   - '8:00 PM'
   - '8:30 PM'
   - '9:00 PM'
+  - '9:30 PM'
+  - '10:00 PM'
+  - '10:30 PM'
 schedule:
   - name: Monday
     events:
       - name: Office Hours
-        start: 1:00 PM
-        end: 3:00 PM
-        location: MENTOR
+        start: 10:00 AM
+        end: 11:00 AM
+        location: Raphael
       - name: Office Hours
-        start: 3:00 PM
-        end: 5:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 5:00 PM
-        end: 7:00 PM
-        location: MENTOR
+        start: 12:00 PM
+        end: 1:00 PM
+        location: Prof K
   - name: Tuesday
     events:
       - name: Lecture
@@ -49,21 +48,9 @@ schedule:
         end: 10:45 AM
         location: Zoom
       - name: Office Hours
-        start: 11:00 AM
-        end: 1:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 1:00 PM
-        end: 3:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 3:00 PM
-        end: 5:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 5:00 PM
+        start: 6:00 PM
         end: 7:00 PM
-        location: MENTOR
+        location: Shailja
   - name: Wednesday
     events:
       - name: Lecture
@@ -71,9 +58,13 @@ schedule:
         end: 10:45 AM
         location: Zoom
       - name: Office Hours
-        start: 5:00 PM
+        start: 12:00 PM
+        end: 1:00 PM
+        location: Shailja
+      - name: Office Hours
+        start: 6:00 PM
         end: 7:00 PM
-        location: MENTOR
+        location: Raphael
   - name: Thursday
     events:
       - name: Lecture
@@ -83,41 +74,44 @@ schedule:
       - name: Section
         start: 11:00 AM
         end: 12:20 PM
-        location: Zoom
+        location: Raphael, Kev
       - name: Section
         start: 12:30 PM
         end: 1:50 PM
-        location: Zoom
+        location: Kev, Saikumar
       - name: Section
         start: 2:00 PM
         end: 3:20 PM
-        location: Zoom
+        location: Saikumar, Apurv
       - name: Section
         start: 3:30 PM
         end: 4:50 PM
-        location: Zoom
+        location: Apurv, Shailja
       - name: Section
         start: 5:00 PM
         end: 6:20 PM
-        location: Zoom
+        location: Shailja, Raphael
+      - name: Office Hours
+        start: 6:30 PM
+        end: 7:30 PM
+        location: Saikumar
+      - name: Office Hours
+        start: 10:00 PM
+        end: 11:00 PM
+        location: Prof K
   - name: Friday
     events:
       - name: Office Hours
-        start: 8:00 AM
+        start: 09:00 AM
         end: 10:00 AM
-        location: MENTOR
+        location: Kev
       - name: Office Hours
-        start: 10:00 AM
+        start: 11:00 AM
         end: 12:00 PM
-        location: MENTOR
+        location: Apurv
       - name: Office Hours
-        start: 1:00 PM
-        end: 2:00 PM
-        location: MENTOR
-      - name: Office Hours
-        start: 4:00 PM
-        end: 5:00 PM
-        location: MENTOR
-  
+        start: 12:00 PM
+        end: 1:00 PM
+        location: Prof K
 ---
 

@@ -528,6 +528,64 @@ print('Hello, World'))
 
 # Type Errors
 
+### `TypeError: 'int' object is not callable`
+
+Related error: TypeError: 'float' object is not callable
+
+* Example erroneous code: If we call the `print(sum(...))`, we'll see that it correctly prints the sum of the collection. However, the first line, "redefines" the function and turns it into an `int`, which makes it no longer callable.
+
+```py
+sum = sum([1, 2, 3])
+print(sum)
+print(sum([11, 2, 3]))
+```
+
+* **Cause**: The function name was overwritten, so it no longer refers to a function. The object with the same name does not refer to a function and, therefore, cannot be called.
+* **Check**: 
+    * Verify that you are not using a name of a built-in function (such as `sum` or `list`) as a variable name. Sanity check: If your IDE colors the variable name into a different color than your other variables, do not use it as a variable name.
+    * Check that you are not redefining your custom function name somewhere in your code: do you have an assignment statement that has your function name on the left side of the assignment operator `=`?
+
+* Correct code: 
+```py
+my_sum = sum([1, 2, 3]) # the variable name is different from the function
+print(my_sum)
+print(sum([11, 2, 3])) # sum() has not been redefined
+```
+
+[Back to top](#top)
+
+---
+
+
+
+### `TypeError: 'tuple' object does not support item assignment`
+
+Related error: `TypeError: 'str' object does not support item assignment`
+
+* Example erroneous code:
+```py
+my_tuple = ("March", 8, "Holiday")
+my_tuple[2] = "International Women's Day"
+```
+*   **Cause**: Tuples are immutable, so it is not possible to modify their contents.
+*   **Check**: Does the object need to be a tuple? Were you supposed to convert it into another type (e.g., a list) first, before modifying it?
+
+* Potential solution:
+
+```py
+my_list = list(my_tuple) # convert a tuple into a list
+my_list[2] = "International Women's Day" # modify the list item
+my_tuple = tuple(my_list) # convert the list into a new tuple
+print(my_tuple)
+('March', 8, "International Women's Day")
+```
+
+[Back to top](#top)
+
+---
+
+
+
 ### `TypeError: argument of type 'int' is not iterable`
 
 Related error: [`TypeError: 'list' object cannot be interpreted as an integer`](#typeerror-list-object-cannot-be-interpreted-as-an-integer)

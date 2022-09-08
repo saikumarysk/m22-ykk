@@ -78,7 +78,7 @@ We will always use only the official course platforms to reach out to you: posts
 
 ### Course Tools
 We recommend bookmarking the following links:
-* [Gauchospace](http://gauchospace.ucsb.edu) (always start here - this is the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
+* [Gauchospace](http://gauchospace.ucsb.edu) (**always start here** - this is the main hub for the course: grades, schedule, weekly reflection, quizzes, relevant course links), 
 * [zybook](https://learn.zybooks.com/library) (weekly assignments - PAs, CAs, LAs - see below), 
 * [Gradescope](https://www.gradescope.com) (coding-related submissions - quizzes, some labs, project), 
 * [Piazza](https://piazza.com) (Q&A forum)
@@ -88,7 +88,9 @@ The link to the form to request an extension and to submit anonymous feedback ar
 
 You will also submit your work through Google Forms or Qualtrics links - they will be shared during the class, posted via Gauchospace, or linked in the respective assignment.
 
+<!--
 For (the optional) in-class participation, we will be using the [iClicker app](https://macmillan.force.com/iclicker/s/article/Remote-Instruction-iClicker-Cloud-Student-Onboarding-Resources), which is linked on Gauchospace - use that link to create an account or log in and you will automatically be added to the course.
+-->
 
 ### Grading
     5% Participation Activities (PAs): in zyBook
@@ -99,19 +101,10 @@ For (the optional) in-class participation, we will be using the [iClicker app](h
     25% Quizzes: 5-6 quizzes, lowest will be dropped
     25% Final Project submitted via Gradescope
     5% Weekly reflection; 
-       2 lowest/missing will be dropped
-<!--
-    8% Course Participation: in-class activities + iClicker 
-       4 lowest/missing will be dropped
--->
+       1 lowest/missing will be dropped
+
 > Note: **There will be no midterms or final exams.** 
 
-Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
-
-<!--
-**iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
--->
-                                         
 Final course grade will use the 90/80/70/60 scale, with +/- grades (i.e., it is possible to get B-, B, B+, etc.). 
 
 Note that A+ is given at the discretion of the instructor for outstanding performance and participation that go beyond the regular class expectations.
@@ -132,12 +125,18 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 Due each week (always, at <span style="color:green">**the same time**</span>):
 
-> **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
+> **PA**{: .label .label-orange }(Participation Activities): we recommend you to complete them **before** the 1st class of the week (for example, <span style="color:green">Monday {{ site.due_time }}</span>)
 
-> **CA**{: .label .label-blue }(Challenge Activitiwe recommend you to complete them**before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them
+> **CA**{: .label .label-blue }(Challenge Activitiies): we recommend you to complete them **before** the labs (we suggest completing them by <span style="color:green">Tuesday {{ site.due_time }}</span>, so that you have enough time to ask questions/clarifications about them the next day)
 
 > **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Thursday {{ site.due_time }}</span> (complete them before 9am to focus on the labs for the current week)
 
+Quizzes will always open up on Wednesdays at 10:15am and will always **start on Gauchospace**. The quizzes will be open anywhere between 10-30 minutes.
+
+<!--
+**iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
+-->
+                                         
 Deadlines for all activities are available on Gauchospace (and are listed on the [Calendar]({{site.url}}/{{site.baseurl}}/calendar)). 
 
 <span style="color:green">These are hard deadlines beyond which we **will not accept late submissions**.</span>
@@ -157,8 +156,8 @@ linked [below](#request-for-accommodations).
 You need to submit this form separately for all weeks in which you will need the accommodation.
 
 ### Deadline extension for zyBook activities
-During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). 
-Do not contact us via the forum or the email, just [submit this form to request an extension]({{ exceptions_form }}) and select whether the extension is for the PAs, CAs, and/or LAs.
+During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extensions only for the zyBooks activities, not the quizzes, reflections, etc.). 
+Do not contact us via the forum or the email, just [submit this form to request an extension]({{ site.exceptions_form }}) and select whether the extension is for the PAs, CAs, and/or LAs.
 * You need to submit this form **within a day of the respective {{ site.due_time }}** deadline.
 * We reserve the right to not accept retroactive extension requests for previous weeks.
 * The deadline extensions **do not** apply to the **final project**.
@@ -192,7 +191,7 @@ Students are responsible for understanding and abiding by UCSB's academic integr
 Assignments allow you to practice skills and concepts, and prepare you for quizzes and the project. Students who do not follow the policies of the course on collaboration and academic honesty will be **reported to the office of academic honesty and should expect to receive an F in the course**. ⚠️  **_All_** students involved in an incident, _regardless if they are copying or sharing their work_, are going to be reported to The Office of Student Conduct.  The process and possible consequences are outlined here: <https://www.sa.ucsb.edu/regulations/student-conduct-code/student-conduct-code>.
 
 If you have doubts or questions about what is allowed or are unclear on the course policies surrounding collaboration or regarding using the information/skills not covered during the course, please ask the Instructors via the forum.
-By default, we treat the usage of concepts that we have not covered in class as a case of the academic integrity violation - even if the student knows the advanced concepts, unless they have explicitly obtained the Instructor's written persmission, their usage of them violates this course's policy.
+By default, we treat the usage of concepts that we have not covered in class as a case of the academic integrity violation - even if the student knows the advanced concepts, unless they have explicitly obtained the Instructor's written permission, their usage of them violates this course's policy.
 
 Rather than copying someone else's work, ask for help. You are not alone in this course! We are here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
 
